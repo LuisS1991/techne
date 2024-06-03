@@ -10,18 +10,24 @@ const { title } = Astro.props;
     <!-- Basic -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- Mobile Metas -->
+
+    <!-- Site Metas -->
+    <meta name="keywords" content="fin,curso,carrera,its" />
+    <meta name="description" content="sitio web sobre empresa de fin de curso ITS" />
+    <meta name="author" content="techene" />
+
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="techne" />
+    <meta name="apple-mobile-web-app-title" content="techne" />
+    <meta name="msapplication-starturl" content="/" />
     <meta
         name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <!-- Site Metas -->
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    
-	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="manifest" href="manifest.json">
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="manifest.json" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
 
