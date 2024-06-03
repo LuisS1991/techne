@@ -1,0 +1,31 @@
+---
+import Nav from "@/components/Nav.astro";
+import About from "@/components/About.astro";
+import How from "@/components/How.astro";
+import Feature from "@/components/Feature.astro";
+import FormContato from "@/components/FormContacto.astro";
+import InfoSeccion from "@/components/InfoSeccion.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="techne software">
+	<Nav slider={true}/>
+	<!-- about section -->
+	<About />
+	<!-- end about section -->
+
+	<!-- who section -->
+	<How />
+	<!-- end who section -->
+
+	<!-- feature section  -->
+	<Feature />
+	<!-- end feature section -->
+
+	<!-- contact section -->
+	<FormContato />
+	<!-- end contact section -->
+
+	<!-- info section -->
+	<InfoSeccion/>
+</Layout>
