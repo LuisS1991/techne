@@ -1,0 +1,38 @@
+---
+import Nav from "@/components/Nav.astro";
+import How from "@/components/How.astro";
+import InfoSeccion from "@/components/InfoSeccion.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="techne software">
+    <Nav slider={false} />
+
+    <section class="who_section layout_padding">
+        <div class="container who_container">
+            <div>
+                <h2>Api Naumaticos</h2>
+                <p>¿Que es api naumaticos?</p>
+                <p>
+                    Es el punto de entrada para poder utilizar los servicios en
+                    tiempo real del precio de los neumaticos en el mercado que
+                    ofrecemos a través de las interfaces de aplicación (APIs).
+                </p>
+                <p>
+                    Creá tu propia aplicación utilizando los servicios de
+                    utilizando nuestra API.
+                </p>
+                <p>
+                    Nuestra empresa ofrece toda la solución informatica que
+                    necesite.
+                </p>
+                <p>
+                    Contactenos y desarrollemos su idea.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- info section -->
+    <InfoSeccion />
+</Layout>
